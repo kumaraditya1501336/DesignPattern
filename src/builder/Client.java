@@ -8,7 +8,7 @@ public class Client {
         builder.setBatch("Mar24");
         builder.setPsp(20);
 
-        Student student = new Student(builder);
+        Student student = builder.build();
 
         System.out.println("DEBUG");
     }

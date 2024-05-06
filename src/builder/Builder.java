@@ -55,4 +55,8 @@ public class Builder {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    public Student build() {
+        return new Student(this);
+    }
 }
